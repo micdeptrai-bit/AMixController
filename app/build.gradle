@@ -4,6 +4,8 @@ plugins {
 }
 
 android {
+namespace "com.tai.amix"
+
     compileSdk 32
     buildToolsVersion "33.0.0"
 
