@@ -1,0 +1,35 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/AMixController/app/src/main/AndroidManifest.xml",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": -1,
+          "line": 28
+        },
+        "start": {
+          "column": 0,
+          "index": -1,
+          "line": 28
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/AMixController/app/src/main/kotlin/com/tai/amix/MusicListenerService.kt",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": -1,
+          "line": 21
+        },
+        "start": {
+          "column": 1,
+          "index": -1,
+          "line": 21
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/AMixController/app/src/main/kotlin/com/tai/amix/MusicListenerService.kt"
+}
