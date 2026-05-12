@@ -1,4 +1,3 @@
-cat > app/src/main/kotlin/com/tai/amix/MainActivity.kt
 package com.tai.amix
 
 import android.os.Bundle
