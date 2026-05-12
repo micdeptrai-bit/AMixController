@@ -1,25 +1,11 @@
+cat > app/src/main/kotlin/com/tai/amix/MainActivity.kt
 package com.tai.amix
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import android.content.Context
-import android.widget.Toast
-import com.tai.amix.databinding.ActivityMainBinding
-import com.itsaky.androidide.logsender.LogSender
+import androidx.appcompat.app.AppCompatActivity
 
-public class MainActivity : AppCompatActivity() {
-    
-    private lateinit var binding: ActivityMainBinding
-    
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-        // Remove this line if you don't want AndroidIDE to show this app's logs
-        LogSender.startLogging(this@MainActivity)
         super.onCreate(savedInstanceState)
-        // Inflate and get instance of binding
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        
-        // set content view to binding's root
-        setContentView(binding.root)
     }
 }
